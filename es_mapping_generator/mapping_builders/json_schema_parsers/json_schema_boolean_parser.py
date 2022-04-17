@@ -1,5 +1,5 @@
-from es_mapping.boolean_mapping import BooleanMapping
-from es_mapping.mapping_base import Mapping
+from es_mapping_generator.es_mapping.boolean_mapping import BooleanMapping
+from es_mapping_generator.es_mapping.mapping_base import Mapping
 from .json_schema_type_parser import JsonSchemaTypeParser
 
 

@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-from es_mapping.mapping_base import Mapping
+from es_mapping_generator.es_mapping.mapping_base import Mapping
 
 
 class JsonSchemaParser(metaclass=ABCMeta):

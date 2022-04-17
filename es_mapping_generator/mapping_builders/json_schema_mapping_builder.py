@@ -1,9 +1,9 @@
 import re
 from typing import List
 
-from mapping_builders import MappingBuilder
-from es_mapping.mapping_base import Mapping
-from mapping_builders.json_schema_parsers import JsonSchemaParser
+from es_mapping_generator.mapping_builders import MappingBuilder
+from es_mapping_generator.es_mapping.mapping_base import Mapping
+from es_mapping_generator.mapping_builders.json_schema_parsers import JsonSchemaParser
 
 REF_NORMALIZE_REGEX = re.compile("^#/")
 

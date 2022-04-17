@@ -1,5 +1,5 @@
-from es_mapping.keyword_mapping import KeywordMapping
-from es_mapping.mapping_base import Mapping
+from es_mapping_generator.es_mapping.keyword_mapping import KeywordMapping
+from es_mapping_generator.es_mapping.mapping_base import Mapping
 from .json_schema_parser_base import JsonSchemaParser
 
 

@@ -1,7 +1,6 @@
-from es_mapping.integer_mapping import IntegerMapping
-from es_mapping.mapping_base import Mapping
+from es_mapping_generator.es_mapping.integer_mapping import IntegerMapping
+from es_mapping_generator.es_mapping.mapping_base import Mapping
 from . import JsonSchemaParser
-from .json_schema_type_parser import JsonSchemaTypeParser
 
 
 class JsonSchemaIntegerParser(JsonSchemaParser):
